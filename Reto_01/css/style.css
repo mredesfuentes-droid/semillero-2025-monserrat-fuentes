@@ -1,0 +1,155 @@
+body{
+  font-family: "Google Sans Flex", sans-serif!important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+  background-color: #E7D3B2;  
+}
+
+.fondo_verde_bandera {
+    background-color:#026A6B!important;
+
+}
+
+.color_naranja{
+    color:#DF7C43;
+}
+
+.titulos{
+   font-weight: 700;
+   font-size: 1.8rem; 
+}
+
+.color_cafe{
+  color:#641720;
+}
+
+.color_gris{
+  color:#524E47;
+}
+
+.color_amarillo{
+  color:#E08E07;
+}
+
+
+.fondo_crema_list{
+  background-color: #F3EEDD!important;
+}
+
+.fondo_crema{
+  background-color: #F3EEDD!important;
+  border-color: #F3EEDD!important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.fondo_crema .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fondo_crema .card-body > p:last-child {
+  margin-top: auto;
+}
+
+.fondo_crema .card-body > a {
+  align-self: flex-start;
+}
+
+
+/* Centrar una imagen con texto */
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+  /* Ojo vertical-align: text-middle no existe*/
+}
+
+.sans-serif-google {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+/* Igualar altura de cards */
+.row > .col-sm-4 {
+  align-items: stretch;
+}
+
+.row > .col-sm-4 .card {
+  width: 100%;
+}
+
+
+.fondo_rosa{
+  background-color:#D32151;
+
+}
+
+
+.btn_rosa{
+  transition: transform 0.3s ease;
+}
+
+.btn_rosa:hover{
+   background-color:#D32151!important;
+   transform: scale(1.5);
+}
+
+.img-card_opcion2{
+      max-width: 100%;
+      height: 100%;
+}
+
+
+.navbar-brand{
+  cursor: default;    
+}
+
+.navbar-brand:hover{
+  color:#DF7C43!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active  {
+  background-color: #641720!important; 
+  color:white!important; 
+}
+
+.nav-link{
+  background-color: #026A6B!important;
+  color:white!important;
+  border: 1px solid white!important;
+}
+
+.nav-tabs {
+  border-bottom: 5px solid #DF7C43!important;
+}
+
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
+
+
+
